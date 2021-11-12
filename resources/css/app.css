@@ -1,0 +1,92 @@
+@import "misCss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+
+    .tituloH2Co {
+        @apply underline text-pink-600 text-center text-4xl mb-6 pt-6 tracking-wider;
+    }
+    .h2titulo {
+        @apply text-xl font-bold pt-8 pb-3 text-pink-600;
+    }
+    .h2parrafo {
+        @apply  text-gray-800 text-xl tracking-wide leading-relaxed text-justify ;
+    }
+    .h2ul {
+        @apply pl-10 text-gray-800 ;
+    }
+    .h2li {
+        @apply tracking-wide text-lg leading-normal text-justify pb-2;
+
+    }
+    .h2ul2 {
+        @apply pl-20 text-gray-800 ;
+    }
+    .h2li2 {
+        @apply tracking-wide text-lg leading-normal text-justify pb-2;
+
+    }
+
+    .h2liparrafo{
+        @apply text-lg pl-2 pb-2;
+    }
+
+
+
+    .h3titulo {
+        @apply pl-10 text-lg font-bold pt-8 pb-3 text-pink-500;
+    }
+    .h3parrafo {
+        @apply  text-gray-800 pb-4 pl-10 text-lg tracking-wide leading-normal text-justify ;
+    }
+    .h3ul {
+        @apply  pl-20 text-gray-800 ;
+    }
+    .h3li {
+        @apply tracking-wide text-lg  leading-normal text-justify pb-2;
+
+    }
+    .h3liparrafo{
+        @apply text-lg pl-2 pb-2;
+    }
+
+
+
+
+
+
+
+    .parrafoH3 {
+        @apply  pb-4 text-green-800 text-lg tracking-wide leading-normal text-justify ;
+    }
+    .nivel2 {
+        @apply text-xl font-bold pt-4 pb-3 text-blue-600 ;
+    }
+    .nivel3 {
+        @apply text-lg font-bold pb-3 pt-4 text-blue-400;
+    }
+    .nivel4 {
+        @apply text-lg pb-3 pt-4 pl-6;
+    }
+
+
+    .ulnivel {
+        @apply pb-4;
+    }
+    .tituloH1 {
+        @apply text-5xl text-center font-bold tracking-wider leading-loose;
+    }
+    .cabecera {
+        @apply bg-gradient-to-b from-pink-50 via-pink-50 to-pink-200 mx-auto px-4 sm:px-6 lg:px-8 pt-10 pb-10;
+    }
+    .hrTitulo {
+        @apply bg-pink-600 h-0.5 mb-4 border-none;
+    }
+
+    .blur {
+        @apply filter blur-lg;
+    }
+
+  }
