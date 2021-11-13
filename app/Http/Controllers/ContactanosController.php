@@ -30,7 +30,7 @@ class ContactanosController extends Controller
             ]);
 
         try{
-            mail::to('carlos.marti@me.com')->send(
+            mail::to('carlos.marti.mallen@gmail.com')->send(
                 new ContactanosMailable(
                     $request->input("name"),
                     $request->input("correo"),

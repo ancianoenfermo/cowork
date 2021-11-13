@@ -7,7 +7,7 @@
     <section class="bg-cover" style="background-image: url({{asset('storage/img/portada/Portada2.png')}})">
         <div class ="grid grid-cols-3 h-72 my-auto">
             <div class="col-span-2 pt-10 mx-14 my-auto">
-                <h1 class=" text-white font-extrabold text-4xl text-opacity-100">CoWorking en Santiago de Compostela</h1>
+                <h1 class=" text-white  font-extrabold text-4xl text-opacity-100">CoWorking en Santiago de Compostela</h1>
                 <p class="h2parrafo text-white font-extrabold  text-xl mt-4">Comparte espacio, talento y  conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.</p>
             </div>
             <div class="items-center  mx-auto my-auto">
@@ -19,11 +19,13 @@
     <section class="w-full p-0">
         <div class="mx-auto text-xl leading-normal text-justify px-32 w-screen bg-pink-50">
             <a name="sobre-nosotros"></a>
-            <h2 class="tituloH2Co">Sobre nosotros</h2>
-            <img class="float-right w-96 ml-4 pt-10" src="{{asset('storage/img/resto/Nosotros.jpg')}}" alt="">
+            <h2 class="tituloH2Co font-bold">Sobre nosotros</h2>
+            <img class="float-left w-72 mr-4" src="{{asset('storage/img/resto/Collage.png')}}" alt="">
             <p class="h2parrafo">
             <span class="text-3xl text-pink-700">E</span>n Quelqum, siempre hemos apostado decididamente por el empleo, con altos niveles de inserción de nuestros alumnos.
-            Ahora queremos dar un paso más facilitando a emprendedores, profesionales independientes y pymes compartir, no solo el espacio, sino también el talento y los conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.
+            </p>
+            <p class="h2parrafo" >
+                <span class="text-3xl text-pink-700">A</span>hora queremos dar un paso más facilitando a emprendedores, profesionales independientes y pymes compartir, no solo el espacio, sino también el talento y los conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.
             </p>
             <p class="h2parrafo pb-10">
             <span class="text-3xl text-pink-700">P</span>onemos a vuestra disposición un coworking que os permitirá abaratar los costes de estructura propios de una oficina tradicional.
@@ -33,7 +35,7 @@
         <hr class="bg-pink-700 h-2 opacity-25">
         <div class="mx-auto text-xl leading-normal text-justify px-32  bg-pink-100">
             <a name="nuestros-espacios"></a>
-            <h2 class="tituloH2Co">Nuestros Espacios </h2>
+            <h2 class="tituloH2Co font-bold ">Nuestros Espacios </h2>
             <p class="h2parrafo pb-2">
                 <span class="text-3xl text-pink-700">C</span>onoce nuestros <strong>puestos de trabajo compartidos</strong> en Coworking, <strong>fijos o nómadas</strong>.
                 </p>
@@ -54,7 +56,7 @@
         <hr class="bg-pink-700 h-2 opacity-25">
         <div class="mx-auto text-xl leading-normal text-justify px-32  bg-pink-50">
             <a name="servicios"></a>
-            <h2 class="tituloH2Co">Servicios</h2>
+            <h2 class="tituloH2Co font-bold">Servicios</h2>
             <p class="h2parrafo"><span class="text-3xl text-pink-700">U</span>na nueva forma de trabajar y relacionarse, en la que por fin los profesionales pueden compartir un espacio de trabajo y desarrollar nuevas fórmulas de colaboración.</p>
             <p class="h2parrafo"><span class="text-3xl text-pink-700">N</span>uestras instalaciones están pensadas para facilitar el desarrollo de la actividad profesional en óptimas condiciones y con un máximo rendimiento, con buena ubicación, luz natural, mobiliario funcional y dotadas de servicios de calefacción, fibra óptica, limpieza, microondas y máquinas de vending, reduciendo su inversión inicial.
             <p class="h2parrafo"><span class="text-3xl text-pink-700">E</span>l local reúne las condiciones higiénicas, acústicas, de habitabilidad y de seguridad adecuadas y dispone de los medios necesarios para facilitar la accesibilidad universal, de forma que no exista discriminación para las personas con discapacidad.<p>
@@ -79,7 +81,7 @@
         <hr class="bg-pink-700 h-2 opacity-25">
         <div class="mx-auto text-xl leading-normal text-justify px-32  bg-pink-100">
             <a name="tarifas"></a>
-            <h2 class="tituloH2Co">Tarifas</h2>
+            <h2 class="tituloH2Co font-bold">Tarifas</h2>
             <div class="pb-24">
                 <table class="mx-auto ">
                     <thead>
@@ -151,9 +153,9 @@
 
         </div>
         <hr class="bg-pink-700 h-2 opacity-25">
-        <div class="mx-auto text-xl leading-normal text-justify px-32  bg-pink-50">
+        <div class="mx-auto text-xl leading-normal text-justify px-32  bg-pink-50 pb-10">
             <a name="ventajas"></a>
-            <h2 class="tituloH2Co">Ventajas</h2>
+            <h2 class="tituloH2Co font-bold">Ventajas</h2>
             <ul class="h2ul list-disc">
                 <li class="h2li">
                     <p class="h2parrafo"><span class="text-2xl font-semibold text-pink-700">Ahorro: </span>Evita los altos costes de alquiler de un local, luz, agua, internet, etc.</p>
@@ -173,15 +175,6 @@
             </ul>
 
         </div>
-
-
-
-
-
-
-        <x-maps-google :centerPoint="['lat' => 52.16, 'long' => 5]"></x-maps-google>
-
-
     </section>
 <x-separadorFooter/>
 <x-footer/>
