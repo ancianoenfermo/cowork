@@ -8,7 +8,7 @@
                             <div class="lg:flex">
                                 <div class="w-full  mb-12 lg:mb-0 lg:w-1/2 ">
                                     <a href="http://quelqum.com/" target="_blank">
-                                        <img class="mx-auto" src="{{ asset('storage/img/logo/LogoQuelqum.png') }}" alt="logo wiempleo" style="width:90px;">
+                                        <img class="mx-auto" src="{{ asset('img/logo/LogoQuelqum.png') }}" alt="logo wiempleo" style="width:90px;">
                                     </a>
 
                                     <p class="text-gray-600 text-sm pt-4">
