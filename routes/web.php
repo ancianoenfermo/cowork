@@ -17,10 +17,6 @@ use App\Mail\ContactanosMailable;
 
 Route::get('/', HomeController::class)->name('home');
 Route::get('contactanos',[ContactanosController::class,'index'])->name('contactanos.index');
-
-Route::get('/mailable/contact', function() {
-    return new ContactanosMailable("Carlos Martí","carlos.marti@me.com", "607194525", "este es el cuerpo del mensaje");
-});
 Route::post('contactanos',[ContactanosController::class,'store'])->name('contactanos.store');
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
