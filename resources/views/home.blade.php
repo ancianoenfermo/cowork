@@ -4,14 +4,14 @@
             alert("{{session('info')}}")
         </script>
     @endif
-    <section class="bg-cover" style="background-image: url({{asset('storage/img/portada/Portada2.png')}})">
+    <section class="bg-cover" style="background-image: url({{asset('/img/portada/Portada2.png')}})">
         <div class ="grid grid-cols-1 md:grid-cols-3 h-72 my-auto">
             <div class="md:col-span-2 pt-10 mx-14 my-auto">
                 <h1 class=" text-white text-xl md:text-4xl text-opacity-100"><strong>CoWorking</strong> en Santiago de Compostela</h1>
                 <p class="h2parrafo text-white text-base md:text-xl mt-4">Comparte espacio, talento y  conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.</p>
             </div>
             <div class="items-center  mx-auto my-auto">
-                <img class="w-36 md:w-72" src="{{asset('storage/img/logo/PerroAmigo.png')}}" alt="">
+                <img class="w-36 md:w-72" src="{{asset('/img/logo/PerroAmigo.png')}}" alt="">
             </div>
         </div>
 
@@ -20,7 +20,7 @@
         <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32 w-screen bg-pink-50">
             <a name="sobre-nosotros"></a>
             <h2 class="tituloH2Co font-bold">Sobre nosotros</h2>
-            <img class="float-left w-36 md:w-72 mr-4" src="{{asset('storage/img/resto/Collage.png')}}" alt="">
+            <img class="float-left w-36 md:w-72 mr-4" src="{{asset('/img/resto/Collage.png')}}" alt="">
             <p class="h2parrafo">
             <span class="text-3xl text-pink-700">E</span>n Quelqum, siempre hemos apostado decididamente por el empleo, con altos niveles de inserción de nuestros alumnos.
             </p>
@@ -39,8 +39,8 @@
             <p class="h2parrafo pb-2">
                 <span class="text-3xl text-pink-700">C</span>onoce nuestros <strong>puestos de trabajo compartidos</strong> en Coworking, <strong>fijos o nómadas</strong>.
                 </p>
-            <img class="float-left w-36 md:w-72 mr-4 " src="{{asset('storage/img/resto/MesaCompartida.jpg')}}" alt="">
-            <img class="float-right w-36 md:w-72 ml-4 " src="{{asset('storage/img/resto/Despacho.jpg')}}" alt="">
+            <img class="float-left w-36 md:w-72 mr-4 " src="{{asset('/img/resto/MesaCompartida.jpg')}}" alt="">
+            <img class="float-right w-36 md:w-72 ml-4 " src="{{asset('/img/resto/Despacho.jpg')}}" alt="">
 
             <p class="h2parrafo pb-1">
             <span class="text-3xl text-pink-700">D</span>espachos privados: Disponemos de oficinas y <strong>despachos privados</strong> para tu proyecto.
@@ -63,14 +63,14 @@
             <p class="h2parrafo pb-10"><span class="text-3xl text-pink-700">E</span>s un espacio concebido para trabajar en las mejores condiciones, por lo que, desde la pandemia, establecimos un Plan de contingencias, que contempla, entre otros, distancia social, con 2m de distancia entre cada puesto de trabajo, alfombras desinfectantes, dispensadores de gel, desinfección diaria o termómetros para control de temperatura.</p>
             <div class="container grid grid-cols-3 gap-2 mx-auto pb-10">
                 <div class="w-full rounded">
-                    <img src="{{asset('storage/img/resto/Instalaciones1.jpg')}}"
+                    <img src="{{asset('/img/resto/Instalaciones1.jpg')}}"
                         alt="image">
                 </div>
                 <div class="w-full rounded">
-                    <img src="{{asset('storage/img/resto/Instalaciones2.jpg')}}" alt="">
+                    <img src="{{asset('/img/resto/Instalaciones2.jpg')}}" alt="">
                 </div>
                 <div class="w-full rounded">
-                    <img src="{{asset('storage/img/resto/Instalaciones3.jpg')}}" alt="">
+                    <img src="{{asset('/img/resto/Instalaciones3.jpg')}}" alt="">
                 </div>
             </div>
 
@@ -181,7 +181,7 @@
 </x-app-layout>
 {{--
   <div class="max-w-7x1 mx-auto px-4 sm:px-6 lg:px-8 py-36">
-            <img class="w-72" src="{{asset('storage/img/logo/PerroAmigo.png')}}" alt="">
+            <img class="w-72" src="{{asset('/img/logo/PerroAmigo.png')}}" alt="">
             <div class="w-full md:w-3/4  p-6">
                 <h1 class=" text-white font-bold text-4xl text-opacity-100">CoWorking en Santiago de Compostela</h1>
                 <p class="h2parrafo text-white  text-xl mt-4">Comparte espacio, talento y  conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.</p>
