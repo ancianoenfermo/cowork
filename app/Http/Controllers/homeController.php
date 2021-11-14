@@ -11,7 +11,7 @@ use Artesaos\SEOTools\Facades\SEOTools;
 
 class HomeController extends Controller
 {
-    public function __invoke()
+    public function index()
     {
         $title = "Coworking en Santiago de Compostela al lado del Corte Ingles";
         $descripcion = "Despachos y puestos nómadas y fijos cerca del Corte Ingles";
