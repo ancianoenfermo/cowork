@@ -1,7 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-use App\Http\Controllers\HomeController;
+use App\Http\Controllers\homeController;
 use App\Http\Controllers\ContactanosController;
 
 /*
@@ -15,7 +15,7 @@ use App\Http\Controllers\ContactanosController;
 |
 */
 
-Route::get('/', [HomeController::class,'index'])->name('home');
+Route::get('/', [homeController::class,'index'])->name('home');
 Route::get('contactanos',[ContactanosController::class,'index'])->name('contactanos.index');
 Route::post('contactanos',[ContactanosController::class,'store'])->name('contactanos.store');
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
