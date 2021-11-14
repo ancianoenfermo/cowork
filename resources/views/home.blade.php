@@ -5,22 +5,22 @@
         </script>
     @endif
     <section class="bg-cover" style="background-image: url({{asset('storage/img/portada/Portada2.png')}})">
-        <div class ="grid grid-cols-3 h-72 my-auto">
-            <div class="col-span-2 pt-10 mx-14 my-auto">
-                <h1 class=" text-white  font-extrabold text-4xl text-opacity-100">CoWorking en Santiago de Compostela</h1>
-                <p class="h2parrafo text-white font-extrabold  text-xl mt-4">Comparte espacio, talento y  conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.</p>
+        <div class ="grid grid-cols-1 md:grid-cols-3 h-72 my-auto">
+            <div class="md:col-span-2 pt-10 mx-14 my-auto">
+                <h1 class=" text-white text-xl md:text-4xl text-opacity-100"><strong>CoWorking</strong> en Santiago de Compostela</h1>
+                <p class="h2parrafo text-white text-base md:text-xl mt-4">Comparte espacio, talento y  conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.</p>
             </div>
             <div class="items-center  mx-auto my-auto">
-                <img class="w-36" src="{{asset('storage/img/logo/PerroAmigo.png')}}" alt="">
+                <img class="w-36 md:w-72" src="{{asset('storage/img/logo/PerroAmigo.png')}}" alt="">
             </div>
         </div>
 
     </section>
     <section class="w-full p-0">
-        <div class="mx-auto text-xl leading-normal text-justify px-32 w-screen bg-pink-50">
+        <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32 w-screen bg-pink-50">
             <a name="sobre-nosotros"></a>
             <h2 class="tituloH2Co font-bold">Sobre nosotros</h2>
-            <img class="float-left w-72 mr-4" src="{{asset('storage/img/resto/Collage.png')}}" alt="">
+            <img class="float-left w-36 md:w-72 mr-4" src="{{asset('storage/img/resto/Collage.png')}}" alt="">
             <p class="h2parrafo">
             <span class="text-3xl text-pink-700">E</span>n Quelqum, siempre hemos apostado decididamente por el empleo, con altos niveles de inserción de nuestros alumnos.
             </p>
@@ -33,14 +33,14 @@
             </p>
         </div>
         <hr class="bg-pink-700 h-2 opacity-25">
-        <div class="mx-auto text-xl leading-normal text-justify px-32  bg-pink-100">
+        <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
             <a name="nuestros-espacios"></a>
             <h2 class="tituloH2Co font-bold ">Nuestros Espacios </h2>
             <p class="h2parrafo pb-2">
                 <span class="text-3xl text-pink-700">C</span>onoce nuestros <strong>puestos de trabajo compartidos</strong> en Coworking, <strong>fijos o nómadas</strong>.
                 </p>
-            <img class="float-left w-72 mr-4 " src="{{asset('storage/img/resto/MesaCompartida.jpg')}}" alt="">
-            <img class="float-right w-72 ml-4 " src="{{asset('storage/img/resto/Despacho.jpg')}}" alt="">
+            <img class="float-left w-36 md:w-72 mr-4 " src="{{asset('storage/img/resto/MesaCompartida.jpg')}}" alt="">
+            <img class="float-right w-36 md:w-72 ml-4 " src="{{asset('storage/img/resto/Despacho.jpg')}}" alt="">
 
             <p class="h2parrafo pb-1">
             <span class="text-3xl text-pink-700">D</span>espachos privados: Disponemos de oficinas y <strong>despachos privados</strong> para tu proyecto.
@@ -54,7 +54,7 @@
 
         </div>
         <hr class="bg-pink-700 h-2 opacity-25">
-        <div class="mx-auto text-xl leading-normal text-justify px-32  bg-pink-50">
+        <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50">
             <a name="servicios"></a>
             <h2 class="tituloH2Co font-bold">Servicios</h2>
             <p class="h2parrafo"><span class="text-3xl text-pink-700">U</span>na nueva forma de trabajar y relacionarse, en la que por fin los profesionales pueden compartir un espacio de trabajo y desarrollar nuevas fórmulas de colaboración.</p>
@@ -79,7 +79,7 @@
 
         </div>
         <hr class="bg-pink-700 h-2 opacity-25">
-        <div class="mx-auto text-xl leading-normal text-justify px-32  bg-pink-100">
+        <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
             <a name="tarifas"></a>
             <h2 class="tituloH2Co font-bold">Tarifas</h2>
             <div class="pb-24">
@@ -153,7 +153,7 @@
 
         </div>
         <hr class="bg-pink-700 h-2 opacity-25">
-        <div class="mx-auto text-xl leading-normal text-justify px-32  bg-pink-50 pb-10">
+        <div class="mx-auto text-xl leading-normal text-justify pxpx-2 md:px-32-32  bg-pink-50 pb-10">
             <a name="ventajas"></a>
             <h2 class="tituloH2Co font-bold">Ventajas</h2>
             <ul class="h2ul list-disc">
