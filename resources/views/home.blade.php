@@ -53,6 +53,8 @@
             </p>
 
         </div>
+
+
         <hr class="bg-pink-700 h-2 opacity-25">
         <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50">
             <a name="servicios"></a>
@@ -175,6 +177,31 @@
             </ul>
 
         </div>
+        <hr class="bg-pink-700 h-2 opacity-25">
+        <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
+            <a name="nuestros-espacios"></a>
+            <h2 class="tituloH2Co font-bold ">Ubicación Inmejorable</h2>
+            <p class="h2parrafo pb-2">
+                <span class="text-3xl text-pink-700">E</span>l centro es de fácil acceso y está bien comunicado. Se encuentra a 800 metros de la estación intermodal de Santiago de Compostela, a 4 minutos de la AP9 y de la AP53</strong>.
+            </p>
+
+            <p class="h2parrafo pb-1">
+            <span class="text-3xl text-pink-700">C</span>uenta con parada de bus y taxi a escasos metros. Las líneas de autobús que llegan a esta zona son el número 6, 12, C5, C6 y P3.
+            </p>
+            <p class="h2parrafo pb-1">
+            <span class="text-3xl text-pink-700">A</span>demás, se trata de una zona que cuenta con multitud de aparcamientos para poder asistir con el coche particular cómodamente
+            </p>
+            <div class="container pb-10">
+                <div class="w-full rounded items-center">
+                    <img class="mx-auto pt-4" src="{{asset('/img/resto/Plano.png')}}"
+                        alt="image">
+                </div>
+            </div>
+
+
+        </div>
+
+
 
 
     </section>
