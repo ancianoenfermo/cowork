@@ -176,10 +176,7 @@
 
         </div>
 
-        <div>
-            <x-maps-google :centerPoint="['lat' => 52.16, 'long' => 5]"></x-maps-google>
 
-        </div>
     </section>
 <x-separadorFooter/>
 <x-footer/>
