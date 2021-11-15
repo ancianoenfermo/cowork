@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-
+use Artesaos\SEOTools\Facades\SEOMeta;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\URL;
 use Artesaos\SEOTools\Facades\SEOTools;
@@ -19,6 +19,7 @@ class HomeController extends Controller
         SEOTools::setTitle($title);
         SEOTools::setDescription($descripcion);
         SEOTools::setCanonical(URL::current());
+        SEOMeta::setRobots('index');
 
         SEOTools::opengraph()->setUrl(URL::current());
         SEOTools::opengraph()->addImage($image);

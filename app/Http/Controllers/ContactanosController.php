@@ -16,6 +16,7 @@ class ContactanosController extends Controller
      */
     public function index()
     {
+
         return view('contactanos.index');
     }
 
