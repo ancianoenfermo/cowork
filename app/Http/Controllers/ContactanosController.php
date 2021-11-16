@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use Artesaos\SEOTools\Facades\SEOMeta;
 use Illuminate\Http\Request;
 use App\Mail\ContactanosMailable;
 use Exception;
@@ -16,7 +16,7 @@ class ContactanosController extends Controller
      */
     public function index()
     {
-
+        SEOMeta::setRobots('noindex');
         return view('contactanos.index');
     }
 
