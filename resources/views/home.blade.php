@@ -25,17 +25,17 @@
             <span class="text-3xl text-pink-700">E</span>n Quelqum, siempre hemos apostado decididamente por el empleo, con altos niveles de inserción de nuestros alumnos.
             </p>
             <p class="h2parrafo" >
-                <span class="text-3xl text-pink-700">A</span>hora queremos dar un paso más facilitando a emprendedores, profesionales independientes y pymes compartir, no solo el espacio, sino también el talento y los conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.
+                <span class="text-3xl text-pink-700">A</span>hora queremos dar un paso más facilitando a emprendedores, profesionales independientes y pymes de <strong>Santiago de Compostela</strong>, compartir no solo el espacio, sino también el talento y los conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.
             </p>
             <p class="h2parrafo pb-10">
-            <span class="text-3xl text-pink-700">P</span>onemos a vuestra disposición un coworking que os permitirá abaratar los costes de estructura propios de una oficina tradicional.
+            <span class="text-3xl text-pink-700">P</span>onemos a vuestra disposición un <strong>coworking</strong> que os permitirá abaratar los costes de estructura propios de una oficina tradicional.
             Puedes traer tu ordenador, o utilizar los nuestros (consultar condiciones)
             </p>
         </div>
         <hr class="bg-pink-700 h-2 opacity-25">
         <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
             <a name="nuestros-espacios"></a>
-            <h2 class="tituloH2Co font-bold ">Nuestros Espacios </h2>
+            <h2 class="tituloH2Co font-bold ">Nuestros Espacios de Coworking</h2>
             <p class="h2parrafo pb-2">
                 <span class="text-3xl text-pink-700">C</span>onoce nuestros <strong>puestos de trabajo compartidos</strong> en Coworking, <strong>fijos o nómadas</strong>.
                 </p>
@@ -155,7 +155,7 @@
 
         </div>
         <hr class="bg-pink-700 h-2 opacity-25">
-        <div class="mx-auto text-xl leading-normal text-justify pxpx-2 md:px-32-32  bg-pink-50 pb-10">
+        <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50 pb-10">
             <a name="ventajas"></a>
             <h2 class="tituloH2Co font-bold">Ventajas</h2>
             <ul class="h2ul list-disc">
@@ -182,7 +182,7 @@
             <a name="nuestros-espacios"></a>
             <h2 class="tituloH2Co font-bold ">Ubicación Inmejorable</h2>
             <p class="h2parrafo pb-2">
-                <span class="text-3xl text-pink-700">E</span>l centro es de fácil acceso y está bien comunicado. Se encuentra a 800 metros de la estación intermodal de Santiago de Compostela, a 4 minutos de la AP9 y de la AP53</strong>.
+                <span class="text-3xl text-pink-700">E</span>l centro es de fácil acceso y está bien comunicado. Se encuentra a 800 metros de la estación intermodal de <strong>Santiago de Compostela</strong>, a 4 minutos de la AP9 y de la AP53</strong>.
             </p>
 
             <p class="h2parrafo pb-1">
