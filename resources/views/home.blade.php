@@ -22,7 +22,7 @@
 
         <div class="w-full p-0">
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
-                <a name="nuestros-espacios"></a>
+                <a id="nuestros-espacios"></a>
                 <h1 class="tituloH2Co font-bold ">Coworking en Santiago de Compostela</h1>
                 <p class="h2parrafo pb-2">
                     <span class="text-3xl text-pink-700">C</span>onoce nuestros <strong>puestos de trabajo compartidos</strong> en Coworking, <strong>fijos o nómadas</strong>.
@@ -44,7 +44,7 @@
             <hr class="bg-pink-700 h-2 opacity-25">
 
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32 w-screen bg-pink-50">
-                <a name="sobre-nosotros"></a>
+                <a id="sobre-nosotros"></a>
                 <h2 class="tituloH2Co font-bold">Sobre nosotros</h2>
                 <img class="float-left w-36 md:w-72 mr-4" src="{{asset('/img/resto/Collage.png')}}" alt="">
                 <p class="h2parrafo">
@@ -63,7 +63,7 @@
 
             <hr class="bg-pink-700 h-2 opacity-25">
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50">
-                <a name="servicios"></a>
+                <a id="servicios"></a>
                 <h2 class="tituloH2Co font-bold">Servicios</h2>
                 <p class="h2parrafo"><span class="text-3xl text-pink-700">U</span>na nueva forma de trabajar y relacionarse, en la que por fin los profesionales pueden compartir un espacio de trabajo y desarrollar nuevas fórmulas de colaboración.</p>
                 <p class="h2parrafo"><span class="text-3xl text-pink-700">N</span>uestras instalaciones están pensadas para facilitar el desarrollo de la actividad profesional en óptimas condiciones y con un máximo rendimiento, con buena ubicación, luz natural, mobiliario funcional y dotadas de servicios de calefacción, fibra óptica, limpieza, microondas y máquinas de vending, reduciendo su inversión inicial.
@@ -88,7 +88,7 @@
             </div>
             <hr class="bg-pink-700 h-2 opacity-25">
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
-                <a name="tarifas"></a>
+                <a id="tarifas"></a>
                 <h2 class="tituloH2Co font-bold">Tarifas</h2>
                 <div class="pb-24">
                     <table class="mx-auto ">
@@ -159,7 +159,7 @@
             </div>
             <hr class="bg-pink-700 h-2 opacity-25">
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50 pb-10">
-                <a name="ventajas"></a>
+                <a id="ventajas"></a>
                 <h2 class="tituloH2Co font-bold">Ventajas</h2>
                 <ul class="h2ul list-disc">
                     <li class="h2li">
@@ -182,10 +182,10 @@
             </div>
             <hr class="bg-pink-700 h-2 opacity-25">
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
-                <a name="nuestros-espacios"></a>
+                <a id="Ubicacion"></a>
                 <h2 class="tituloH2Co font-bold ">Ubicación Inmejorable</h2>
                 <p class="h2parrafo pb-2">
-                    <span class="text-3xl text-pink-700">E</span>l centro es de fácil acceso y está bien comunicado. Se encuentra a 800 metros de la estación intermodal de <strong>Santiago de Compostela</strong>, a 4 minutos de la AP9 y de la AP53</strong>.
+                    <span class="text-3xl text-pink-700">E</span>l centro es de fácil acceso y está bien comunicado. Se encuentra a 800 metros de la estación intermodal de <strong>Santiago de Compostela</strong>, a 4 minutos de la AP9 y de la AP53.
                 </p>
 
                 <p class="h2parrafo pb-1">

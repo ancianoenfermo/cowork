@@ -51,13 +51,13 @@
                             <ul class="text-gray-500 text-sm">
                                 <li class="pt-1 pb-2"><a href={{route('contactanos.index')}}>Contactanos</a></li>
 
-                                <ul class="list-none ml-4 text-pink-700">
+
                                     <li>QUELQUM</li>
                                     <li>c/ Severino Riveiro Tomé, 9 bajo</li>
                                     <li>15702 Santiago de Compostela. A Coruña</li>
                                     <li>T. 981939061. F. 881972120</li>
                                     <li>info@quelqum.com</li>
-                                </ul>
+
                             </ul>
                         </div>
                     </div>
