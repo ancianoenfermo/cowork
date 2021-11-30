@@ -29,7 +29,7 @@
                                             <li class="pt-1 pb-2"><a href="#nuestros-espacios">Espacios</a></li>
                                             <li class="pt-1 pb-2"><a href="#servicios">Servicios</a></li>
                                             <li class="pt-1 pb-2"><a href="#tarifas">Tarifas</a></li>
-                                            <li class="pt-1 pb-2"><a href={{route('contactanos.index')}}>Conntactanos</a></li>
+                                            <li class="pt-1 pb-2"><a href="#contactanos">Conntactanos</a></li>
                                         </ul>
                                     </div>
                                     <div class="w-full mb-6 lg:mb-0 lg:w-1/2">
@@ -49,7 +49,7 @@
                                 Contacta con nosotros
                             </h2>
                             <ul class="text-gray-500 text-sm">
-                                <li class="pt-1 pb-2"><a href={{route('contactanos.index')}}>Contactanos</a></li>
+                                <li class="pt-1 pb-2"><a href="#contactanos">Contactanos</a></li>
 
 
                                     <li>QUELQUM</li>

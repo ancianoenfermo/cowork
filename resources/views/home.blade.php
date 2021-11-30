@@ -20,7 +20,7 @@
             </header>
     @endslot
 
-        <div class="w-full p-0">
+        <div class="w-full">
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
                 <a id="nuestros-espacios"></a>
                 <h1 class="tituloH2Co font-bold ">Coworking en Santiago de Compostela</h1>
@@ -203,9 +203,50 @@
 
 
             </div>
+            <hr class="bg-pink-700 h-2 opacity-25">
+            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50 pb-10">
+                <a id="contactanos"></a>
+                <h2 class="tituloH2Co font-bold ">Contacta con nosotros</h2>
 
 
 
+                <div class="pt-3 pb-6 mb-6">
+                    <a id="contactanos"></a>
+                    <div class="max-w-2xl mx-auto sm:px-6 lg:px-8">
+                        <x-flash-message/>
+                        <div class="bg-white overflow-hidden shadow-md sm:rounded-lg">
+                            <div class="p-6 bg-white border-b border-gray-200 ">
+                                <form method="POST"  action="{{route('home.store')}}#contactanos">
+                                    @csrf
+                                    <div class="bg-pink-400 h-10">
+                                    <p class="text-white text-center ">FORMULARIO DE CONTACTO</p>
+                                    </div>
+                                    <div class="mt-4">
+                                        <x-form-input name="name" label="Nombre y apellidos" />
+                                    </div>
+                                    <div class="grid grid-cols-3 gap-2">
+                                        <div class="col-span-2">
+                                            <x-form-input type="email"  name="correo" label="Correo electrónico" />
+                                        </div>
+                                        <div >
+                                            <x-form-input name="telefono" label="Teléfono" />
+                                        </div>
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <x-form-textarea name="mensaje" label="Mensaje" rows="7" />
+                                    </div>
+                                    <div class="flex items-end justify-end mt-4 ">
+
+                                        <x-form-submit class="bg-pink-400">Enviar</x-form-submit>
+                                    </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
 
         </div>
 @slot('footer')
