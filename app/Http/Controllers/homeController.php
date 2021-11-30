@@ -13,8 +13,8 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $title = "Coworking en Santiago de Compostela al lado del Corte Ingles";
-        $descripcion = "Despachos y puestos nómadas y fijos cerca del Corte Ingles";
+        $title = "COWORKING en Santiago de Compostela - Quelqum";
+        $descripcion = "COWORKING en Santiago de Compostela. Puestos individuales, despachos privados y aulas de formación. 🐕 ¡¡ven con tu perro!!";
         $image = asset('storage/img/social/Facebook.jpg');
         SEOTools::setTitle($title);
         SEOTools::setDescription($descripcion);

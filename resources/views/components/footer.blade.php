@@ -12,7 +12,7 @@
                                     </a>
 
                                     <p class="text-gray-600 text-sm pt-4">
-                                        <strong>QcoWorking</strong> es una iniciativa de Quelqum para facilitar la búsqueda de trabajo a los demandantes de empleo.
+                                        <strong>QcoWorking</strong> es una iniciativa de Quelqum para facilitar las sinergias entre empredendores.
                                     </p>
                                     <p class="text-gray-600 text-sm pt-4">
                                         <strong>Quelqum</strong> es agencia de colocación acreditada y experta en formación para el empleo.

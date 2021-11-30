@@ -18,19 +18,7 @@
         {{--<link rel="stylesheet" href="{{ mix('css/app.css') }}">--}}
        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
-{{--
-        <style>
-           li {
-                font-size: 14px;
-                margin-left: 10px;
-                list-style-type: circle;
 
-            }
-            li::marker {
-                color:rgb(255, 0, 149);
-            }
-        </style>
---}}
     <style>
        li::marker {
             color:rgb(255, 0, 149);
@@ -38,14 +26,14 @@
     </style>
 
 
-        @livewireStyles
+
 
     </head>
     <body class="font-sans antialiased" itemscope itemtype="http://schema.org/WebPage">
         {{--<x-jet-banner />--}}
 
-        <div class="w-full">
-            @livewire('navigation-menu')
+
+
             <!-- Page Heading -->
             @if (isset($header))
                 {{--<header class="bg-white shadow"> --}}
@@ -58,7 +46,9 @@
             <main>
                 {{ $slot }}
             </main>
-        </div>
+            @if (isset($footer))
+                {{ $footer }}
+            @endif
 
         @stack('modals')
 
