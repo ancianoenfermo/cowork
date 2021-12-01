@@ -211,7 +211,7 @@
 
 
                 <div class="pt-3 pb-6 mb-6">
-                    <a id="contactanos"></a>
+
                     <div class="max-w-2xl mx-auto sm:px-6 lg:px-8">
                         <x-flash-message/>
                         <div class="bg-white overflow-hidden shadow-md sm:rounded-lg">
