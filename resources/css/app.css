@@ -88,15 +88,5 @@
     .blur {
         @apply filter blur-lg;
     }
-    @screen sm {
-        .tituloH2Co {
-            @apply text-xl
-        }
-        .h2parrafo {
-            @apply text-base
-        }
-        .h3li {
-            @apply text-base
-        }
-    }
+
   }
