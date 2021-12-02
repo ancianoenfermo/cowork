@@ -18,13 +18,14 @@ class HomeController extends Controller
 {
     public function index()
     {
-        $title = "COWORKING en Santiago de Compostela - Quelqum";
-        $descripcion = "COWORKING en Santiago de Compostela. Puestos individuales, despachos privados y aulas de formación. 🐕 ¡¡ven con tu perro!!";
+
+        $descripcion = "Coworking en Santiago de Compostela. Puestos individuales, despachos privados y aulas de formación. Pegados al Corte Inglés. Espacio Pet Friendly";
         $image = asset('storage/img/social/Facebook.jpg');
-        SEOTools::setTitle($title);
+
         SEOTools::setDescription($descripcion);
         SEOTools::setCanonical(URL::current());
         SEOMeta::setRobots('index');
+        SEOMeta::addKeyword(['coworking santiago compostela']);
 
         SEOTools::opengraph()->setUrl(URL::current());
         SEOTools::opengraph()->addImage($image);
@@ -69,20 +70,4 @@ class HomeController extends Controller
 
 }
 
-/*
-try{
-            mail::to('carlos.marti.mallen@gmail.com')->send(
-                new ContactanosMailable(
-                    $request->input("name"),
-                    $request->input("correo"),
-                    $request->input("telefono"),
-                    $request->input("mensaje")
-                )
-            );
-            return back()->with("succes","El mensaje se ha enviado");
-        } catch (Exception $e) {
-            return back()->with("error","El mensaje NO se ha podido enviar".$e);
-        }
 
-
-*/
