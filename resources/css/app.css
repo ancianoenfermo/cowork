@@ -6,7 +6,7 @@
 @layer components {
 
     .tituloH2Co {
-        @apply underline text-pink-600 text-center text-4xl mb-6 pt-6 tracking-wider;
+        @apply underline text-pink-600 text-center text-3xl mb-6 pt-6 tracking-wider;
     }
     .h2titulo {
         @apply text-xl font-bold pt-8 pb-3 text-pink-600;
@@ -88,5 +88,15 @@
     .blur {
         @apply filter blur-lg;
     }
-
+    @screen sm {
+        .tituloH2Co {
+            @apply text-xl
+        }
+        .h2parrafo {
+            @apply text-base
+        }
+        .h3li {
+            @apply text-base
+        }
+    }
   }
