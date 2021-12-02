@@ -3,6 +3,8 @@
  * @see https://github.com/artesaos/seotools
  */
 
+use PharIo\Manifest\Url;
+
 return [
     'meta' => [
         /*
@@ -15,7 +17,7 @@ return [
             ', // set false to total remove
             'separator'    => ' - ',
             'keywords'     => [],
-            'canonical'    => false, // Set to null or 'full' to use Url::full(), set to 'current' to use Url::current(), set false to total remove
+            'canonical'    => null, // Set to null or 'full' to use Url::full(), set to 'current' to use Url::current(), set false to total remove
             'robots'       => 'index', // Set to 'all', 'none' or any combination of index/noindex and follow/nofollow
         ],
         /*
@@ -38,10 +40,10 @@ return [
          */
         'defaults' => [
             'title'       => 'CoWorking Quelqum en Santiago de Compostela', // set false to total remove
-            'description' => 'CoWorking en Santiago de Compostela', // set false to total remove
-            'url'         => false, // Set null for using Url::current(), set false to total remove
-            'type'        => false,
-            'site_name'   => false,
+            'description' => 'Coworking en Santiago de Compostela. Puestos individuales, despachos privados y aulas de formación. Pegados al Corte Inglés. Espacio Pet Friendly', // set false to total remove
+            'url'         => null, // Set null for using Url::current(), set false to total remove
+            'type'        => 'WebPage',
+            'site_name'   => 'Qcoworkig',
             'images'      => [],
         ],
     ],
@@ -59,9 +61,9 @@ return [
          * The default configurations to be used by the json-ld generator.
          */
         'defaults' => [
-            'title'       => 'Over 9000 Thousand!', // set false to total remove
-            'description' => 'For those who helped create the Genki Dama', // set false to total remove
-            'url'         => false, // Set null for using Url::current(), set false to total remove
+            'title'       => 'CoWorking Quelqum en Santiago de Compostela', // set false to total remove
+            'description' => 'Coworking en Santiago de Compostela. Puestos individuales, despachos privados y aulas de formación. Pegados al Corte Inglés. Espacio Pet Friendly', // set false to total remove
+            'url'         => null, // Set null for using Url::current(), set false to total remove
             'type'        => 'WebPage',
             'images'      => [],
         ],

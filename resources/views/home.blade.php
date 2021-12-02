@@ -20,8 +20,8 @@
             </header>
     @endslot
 
-
-            <article class="mx-auto text-base md:text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
+        <div>
+            <div class="mx-auto text-base md:text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
                 <a id="nuestros-espacios"></a>
                 <h1 class="tituloH2Co text-2xl md:text-3xl ">Coworking en Santiago de Compostela</h1>
                 <p class="h2parrafo text-base md:text-xl pb-2">
@@ -40,7 +40,7 @@
                 <span class="text-3xl text-pink-700">A</span>ulas de formación homologadas, equipadas con Conexión wifi, Televisión, Equipo audiovisual, Pizarra interactiva, Rotafolio, Mobiliario confortable
                 </p>
 
-            </article>
+            </div>
             <hr class="bg-pink-700 h-2 opacity-25">
 
             <article class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50">
@@ -249,7 +249,7 @@
                     </div>
                 </div>
             </article>
-
+        </div>
 
 @slot('footer')
     <x-separadorFooter/>
