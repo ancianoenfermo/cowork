@@ -1,5 +1,6 @@
-<div>
-    <footer class="">
+
+    <footer>
+        <hr class="bg-gradient-to-t from-pink-200 via-pink-300 to-pink-600 h-5 border-none">
         <div class="bg-cover bg-center">
             <div class="cabecera" >
                 <div class="container mx-auto px-6 lg:px-20">
@@ -74,4 +75,4 @@
         </div>
 
     </footer>
-</div>
+

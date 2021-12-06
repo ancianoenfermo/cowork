@@ -6,44 +6,47 @@
     @endif
     @slot('header')
 
-            <header class="bg-cover" style="background-image: url({{asset('/img/portada/Portada2.png')}})">
-                <div class ="grid grid-cols-1 md:grid-cols-3 h-72 my-auto">
-                    <div class="md:col-span-2 pt-10 mx-14 my-auto">
-                        <p class=" text-white text-xl md:text-4xl text-opacity-100"><strong>CoWorking</strong> de Quelqum</p>
-                        <p class="h2parrafo text-base md:text-xl text-white  mt-4">Comparte espacio, talento y  conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.</p>
-                    </div>
-                    <div class="items-center  mx-auto my-auto">
-                        <img class="w-20 md:w-72" src="{{asset('/img/logo/PerroAmigo.png')}}" alt="">
+            <header>
+                <div class="bg-cover" style="background-image: url({{asset('/img/portada/Portada2.png')}})">
+                    <div class ="grid grid-cols-1 md:grid-cols-3 h-72 my-auto">
+                        <div class="md:col-span-2 pt-10 mx-14 my-auto">
+                            <p class=" text-white text-xl md:text-4xl text-opacity-100"><strong>CoWorking</strong> de Quelqum</p>
+                            <p class="h2parrafo text-base md:text-xl text-white  mt-4">Comparte espacio, talento y  conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.</p>
+                        </div>
+                        <div class="items-center  mx-auto my-auto">
+                            <img class="w-20 md:w-72" src="{{asset('/img/logo/PerroAmigo.png')}}" alt="">
 
+                        </div>
                     </div>
                 </div>
             </header>
     @endslot
 
-        <div>
-            <div class="mx-auto text-base md:text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
-                <a id="nuestros-espacios"></a>
-                <h1 class="tituloH2Co text-2xl md:text-3xl ">Coworking en Santiago de Compostela</h1>
-                <p class="h2parrafo text-base md:text-xl pb-2">
-                    <span class=" text-xl md:text-3xl text-pink-700">C</span>onoce nuestros <strong>puestos de trabajo compartidos</strong> en Coworking, <strong>fijos o nómadas</strong>.
-                    </p>
-                <img class="float-left w-36 md:w-72 mr-4 " src="{{asset('/img/resto/MesaCompartida.jpg')}}" alt="">
-                <img class="float-right w-36 md:w-72 ml-4 " src="{{asset('/img/resto/Despacho.jpg')}}" alt="">
-
-                <p class="h2parrafo text-base md:text-xl pb-1">
-                <span class="text-3xl text-pink-700">D</span>espachos privados: Disponemos de oficinas y <strong>despachos privados</strong> para tu proyecto.
+    <article>
+        <div class="mx-auto text-base md:text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
+            <a id="nuestros-espacios"></a>
+            <h1 class="tituloH2Co text-2xl md:text-3xl ">Coworking en Santiago de Compostela</h1>
+            <p class="h2parrafo text-base md:text-xl pb-2">
+                <span class=" text-xl md:text-3xl text-pink-700">C</span>onoce nuestros <strong>puestos de trabajo compartidos</strong> en Coworking, <strong>fijos o nómadas</strong>.
                 </p>
-                <p class="h2parrafo text-base md:text-xl pb-1">
-                <span class="text-3xl text-pink-700">A</span>lquiler de salas de reuniones de diferentes tamaños, incluida una de 90 metros cuadrados, con el equipamiento audiovisual necesario
-                </p>
-                <p class="h2parrafo text-base md:text-xl pb-10">
-                <span class="text-3xl text-pink-700">A</span>ulas de formación homologadas, equipadas con Conexión wifi, Televisión, Equipo audiovisual, Pizarra interactiva, Rotafolio, Mobiliario confortable
-                </p>
+            <img class="float-left w-36 md:w-72 mr-4 " src="{{asset('/img/resto/MesaCompartida.jpg')}}" alt="">
+            <img class="float-right w-36 md:w-72 ml-4 " src="{{asset('/img/resto/Despacho.jpg')}}" alt="">
 
-            </div>
-            <hr class="bg-pink-700 h-2 opacity-25">
+            <p class="h2parrafo text-base md:text-xl pb-1">
+            <span class="text-3xl text-pink-700">D</span>espachos privados: Disponemos de oficinas y <strong>despachos privados</strong> para tu proyecto.
+            </p>
+            <p class="h2parrafo text-base md:text-xl pb-1">
+            <span class="text-3xl text-pink-700">A</span>lquiler de salas de reuniones de diferentes tamaños, incluida una de 90 metros cuadrados, con el equipamiento audiovisual necesario
+            </p>
+            <p class="h2parrafo text-base md:text-xl pb-10">
+            <span class="text-3xl text-pink-700">A</span>ulas de formación homologadas, equipadas con Conexión wifi, Televisión, Equipo audiovisual, Pizarra interactiva, Rotafolio, Mobiliario confortable
+            </p>
 
-            <article class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50">
+        </div>
+        <hr class="bg-pink-700 h-2 opacity-25">
+
+        <section>
+            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50">
                 <a id="servicios"></a>
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Servicios de coworking en Quelqum</h2>
                 <p class="h2parrafo text-base md:text-xl "><span class="text-3xl text-pink-700">U</span>na nueva forma de trabajar y relacionarse, en la que por fin los profesionales pueden compartir un espacio de trabajo y desarrollar nuevas fórmulas de colaboración.</p>
@@ -62,14 +65,12 @@
                         <img src="{{asset('/img/resto/Instalaciones3.jpg')}}" alt="">
                     </div>
                 </div>
+            </div>
+        </section>
+        <hr class="bg-pink-700 h-2 opacity-25">
 
-
-
-
-            </article>
-            <hr class="bg-pink-700 h-2 opacity-25">
-
-            <article class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
+        <section>
+            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100" >
                 <a id="tarifas"></a>
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Tarifas de espacios de coworking</h2>
                 <div class="pb-24">
@@ -137,11 +138,12 @@
                     </table>
 
                 </div>
+            </div>
+        </section>
+        <hr class="bg-pink-700 h-2 opacity-25">
 
-            </article>
-            <hr class="bg-pink-700 h-2 opacity-25">
-
-            <article class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50 pb-10">
+        <section>
+            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50 pb-10">
                 <a id="ventajas"></a>
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Ventajas del coworking</h2>
                 <ul class="h2ul list-disc">
@@ -161,11 +163,13 @@
                         <p class="h2parrafo text-base md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Formación: </span>Podrás acceder a precios especiales a nuestros talleres y cursos, así como proponernos todas aquellas actividades que redunden en el bienestar del grupo.</p>
                     </li>
                 </ul>
+            </div>
 
-            </article>
-            <hr class="bg-pink-700 h-2 opacity-25">
+        </section>
+        <hr class="bg-pink-700 h-2 opacity-25">
 
-            <article class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
+        <section >
+            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100" >
                 <a id="Ubicacion"></a>
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Ubicación Inmejorable</h2>
                 <p class="h2parrafo text-base md:text-xl pb-2">
@@ -184,12 +188,13 @@
                             alt="image">
                     </div>
                 </div>
+            </div>
 
+        </section>
+        <hr class="bg-pink-700 h-2 opacity-25">
 
-            </article>
-            <hr class="bg-pink-700 h-2 opacity-25">
-
-            <article class="mx-auto text-xl leading-normal text-justify px-2 md:px-32 w-screen bg-pink-50">
+        <section>
+            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32 w-screen bg-pink-50">
                 <a id="sobre-nosotros"></a>
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Sobre nosotros</h2>
                 <img class="float-left w-36 md:w-72 mr-4" src="{{asset('/img/resto/Collage.png')}}" alt="">
@@ -203,15 +208,14 @@
                 <span class="text-3xl text-pink-700">P</span>onemos a vuestra disposición un <strong>coworking</strong> que os permitirá abaratar los costes de estructura propios de una oficina tradicional.
                 Puedes traer tu ordenador, o utilizar los nuestros (consultar condiciones)
                 </p>
-            </article>
-            <hr class="bg-pink-700 h-2 opacity-25">
+            </div>
+        </section>
+        <hr class="bg-pink-700 h-2 opacity-25">
 
-            <article class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100 pb-10">
+        <section>
+            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100 pb-10" >
                 <a id="contactanos"></a>
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Contacta con nosotros</h2>
-
-
-
                 <div class="pt-3 pb-6 mb-6">
 
                     <div class="max-w-2xl mx-auto sm:px-6 lg:px-8">
@@ -248,11 +252,11 @@
                         </div>
                     </div>
                 </div>
-            </article>
-        </div>
+            </div>
+        </section>
+    </article>
 
 @slot('footer')
-    <x-separadorFooter/>
     <x-footer/>
 @endslot
 </x-app-layout>
