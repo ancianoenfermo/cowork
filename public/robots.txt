@@ -1,1 +1,3 @@
 User-agent: *
+allow: https://coworking.quelqum.com/
+Sitemap: https://coworking.quelqum.com/sitemap.xml
