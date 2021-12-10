@@ -18,8 +18,5 @@ use App\Http\Controllers\ContactanosController;
 Route::get('/', [homeController::class,'index'])->name('home');
 Route::post('/', [homeController::class,'store'])->name('home.store');
 
-Route::get('contactanos',[ContactanosController::class,'index'])->name('contactanos.index');
-Route::post('contactanos',[ContactanosController::class,'store'])->name('contactanos.store');
-Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
-    return view('dashboard');
-})->name('dashboard');
+
+

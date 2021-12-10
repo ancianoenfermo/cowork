@@ -23,8 +23,8 @@ class HomeController extends Controller
         $image = asset('storage/img/social/Facebook.jpg');
 
         SEOTools::setDescription($descripcion);
-        SEOTools::setCanonical(URL::current());
-        SEOMeta::setRobots('index');
+
+
         SEOMeta::addKeyword(['coworking santiago compostela']);
 
         SEOTools::opengraph()->setUrl(URL::current());

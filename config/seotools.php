@@ -17,8 +17,8 @@ return [
             ', // set false to total remove
             'separator'    => ' - ',
             'keywords'     => [],
-            'canonical'    => null, // Set to null or 'full' to use Url::full(), set to 'current' to use Url::current(), set false to total remove
-            'robots'       => 'index', // Set to 'all', 'none' or any combination of index/noindex and follow/nofollow
+            'canonical'    => false, // Set to null or 'full' to use Url::full(), set to 'current' to use Url::current(), set false to total remove
+            'robots'       => 'all', // Set to 'all', 'none' or any combination of index/noindex and follow/nofollow
         ],
         /*
          * Webmaster tags are always added.
@@ -63,7 +63,7 @@ return [
         'defaults' => [
             'title'       => 'CoWorking Quelqum en Santiago de Compostela', // set false to total remove
             'description' => 'Coworking en Santiago de Compostela. Puestos individuales, despachos privados y aulas de formación. Pegados al Corte Inglés. Espacio Pet Friendly', // set false to total remove
-            'url'         => null, // Set null for using Url::current(), set false to total remove
+            'url'         => false, // Set null for using Url::current(), set false to total remove
             'type'        => 'WebPage',
             'images'      => [],
         ],
