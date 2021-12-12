@@ -5,6 +5,7 @@
 
 use PharIo\Manifest\Url;
 
+
 return [
     'meta' => [
         /*
@@ -63,7 +64,7 @@ return [
         'defaults' => [
             'title'       => 'CoWorking Quelqum en Santiago de Compostela', // set false to total remove
             'description' => 'Coworking en Santiago de Compostela. Puestos individuales, despachos privados y aulas de formación. Pegados al Corte Inglés. Espacio Pet Friendly', // set false to total remove
-            'url'         => false, // Set null for using Url::current(), set false to total remove
+            'url'         => null, // Set null for using Url::current(), set false to total remove
             'type'        => 'WebPage',
             'images'      => [],
         ],
