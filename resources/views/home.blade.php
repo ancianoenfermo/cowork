@@ -27,10 +27,10 @@
             <a id="nuestros-espacios"></a>
             <h1 class="tituloH2Co text-2xl md:text-3xl ">Coworking en Santiago de Compostela</h1>
             <p class="h2parrafo text-base md:text-xl pb-2">
-                <span class=" text-xl md:text-3xl text-pink-700">C</span>onoce nuestros <strong>puestos de trabajo compartidos</strong> en Coworking, <strong>fijos o nómadas</strong>.
+                <span class=" text-xl md:text-3xl text-pink-700">C</span>onoce nuestro <strong>coworking en Santiago de Compostela</strong>, con puestos de trabajo compartidos, fijos o nómadas
                 </p>
-            <img class="float-left w-36 md:w-72 mr-4 " src="{{asset('/img/resto/MesaCompartida.jpg')}}" alt="">
-            <img class="float-right w-36 md:w-72 ml-4 " src="{{asset('/img/resto/Despacho.jpg')}}" alt="">
+            <img class="float-left w-36 md:w-72 mr-4 " src="{{asset('/img/resto/MesaCompartida.jpg')}}" alt="Puesto de coworking en Santiago de Compostela">
+            <img class="float-right w-36 md:w-72 ml-4 " src="{{asset('/img/resto/Despacho.jpg')}}" alt="Despacho de coworking en Santiago de Compostela">
 
             <p class="h2parrafo text-base md:text-xl pb-1">
             <span class="text-3xl text-pink-700">D</span>espachos privados: Disponemos de oficinas y <strong>despachos privados</strong> para tu proyecto.
@@ -48,21 +48,21 @@
         <section>
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50">
                 <a id="servicios"></a>
-                <h2 class="tituloH2Co text-2xl md:text-3xl">Servicios de coworking en Quelqum</h2>
+                <h2 class="tituloH2Co text-2xl md:text-3xl">Servicios</h2>
                 <p class="h2parrafo text-base md:text-xl "><span class="text-3xl text-pink-700">U</span>na nueva forma de trabajar y relacionarse, en la que por fin los profesionales pueden compartir un espacio de trabajo y desarrollar nuevas fórmulas de colaboración.</p>
-                <p class="h2parrafo text-base md:text-xl"><span class="text-3xl text-pink-700">N</span>uestras instalaciones están pensadas para facilitar el desarrollo de la actividad profesional en óptimas condiciones y con un máximo rendimiento, con buena ubicación, luz natural, mobiliario funcional y dotadas de servicios de calefacción, fibra óptica, limpieza, microondas y máquinas de vending, reduciendo su inversión inicial.
+                <p class="h2parrafo text-base md:text-xl"><span class="text-3xl text-pink-700">N</span>uestras instalaciones de <strong>coworking en Santiago de Compostela</strong> están pensadas para facilitar el desarrollo de la actividad profesional en óptimas condiciones y con un máximo rendimiento, con buena ubicación, luz natural, mobiliario funcional y dotadas de servicios de calefacción, fibra óptica, limpieza, microondas y máquinas de vending, reduciendo su inversión inicial.
                 <p class="h2parrafo text-base md:text-xl"><span class="text-3xl text-pink-700">E</span>l local reúne las condiciones higiénicas, acústicas, de habitabilidad y de seguridad adecuadas y dispone de los medios necesarios para facilitar la accesibilidad universal, de forma que no exista discriminación para las personas con discapacidad.<p>
-                <p class="h2parrafo text-base md:text-xl pb-10"><span class="text-3xl text-pink-700">E</span>s un espacio concebido para trabajar en las mejores condiciones, por lo que, desde la pandemia, establecimos un Plan de contingencias, que contempla, entre otros, distancia social, con 2m de distancia entre cada puesto de trabajo, alfombras desinfectantes, dispensadores de gel, desinfección diaria o termómetros para control de temperatura.</p>
+                <p class="h2parrafo text-base md:text-xl pb-10"><span class="text-3xl text-pink-700">E</span>s un espacio de <strong>coworking en Santiago de Compostela</strong> concebido para trabajar en las mejores condiciones, por lo que, desde la pandemia, establecimos un Plan de contingencias, que contempla, entre otros, distancia social, con 2m de distancia entre cada puesto de trabajo, alfombras desinfectantes, dispensadores de gel, desinfección diaria o termómetros para control de temperatura.</p>
                 <div class="container grid grid-cols-3 gap-2 mx-auto pb-10">
                     <div class="w-full rounded">
                         <img src="{{asset('/img/resto/Instalaciones1.jpg')}}"
-                            alt="image">
+                            alt="Recepcion coworking en Santiago de compostela">
                     </div>
                     <div class="w-full rounded">
-                        <img src="{{asset('/img/resto/Instalaciones2.jpg')}}" alt="">
+                        <img src="{{asset('/img/resto/Instalaciones2.jpg')}}" alt="Puestos de coworking en Santiago de compostela">
                     </div>
                     <div class="w-full rounded">
-                        <img src="{{asset('/img/resto/Instalaciones3.jpg')}}" alt="">
+                        <img src="{{asset('/img/resto/Instalaciones3.jpg')}}" alt="Aulas de formación coworking en Santiago de compostela">
                     </div>
                 </div>
             </div>
@@ -145,16 +145,16 @@
         <section>
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50 pb-10">
                 <a id="ventajas"></a>
-                <h2 class="tituloH2Co text-2xl md:text-3xl">Ventajas del coworking</h2>
+                <h2 class="tituloH2Co text-2xl md:text-3xl">Ventajas</h2>
                 <ul class="h2ul list-disc">
                     <li class="h2li">
                         <p class="h2parrafo text-base md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Ahorro: </span>Evita los altos costes de alquiler de un local, luz, agua, internet, etc.</p>
                     </li>
                     <li class="h2li">
-                        <p class="h2parrafo text-base md:text-xl"><span class="text-base md:txet font-semibold text-pink-700">Sinergias: </span>Te permitirá colaborar con profesionales de otros sectores y establecer nuevas oportunidades de colaboración</p>
+                        <p class="h2parrafo text-base md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Sinergias: </span>Te permitirá colaborar con profesionales de otros sectores y establecer nuevas oportunidades de colaboración</p>
                     </li>
                     <li class="h2li">
-                        <p class="h2parrafo text-base md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Amplia tus contactos: </span>Nuevos compañeros, nuevos círculos, nuevas oportunidades</p>
+                        <p class="h2parrafo text-base md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Amplia tus contactos: </span>Nuevos compañeros, nuevos círculos, nuevas oportunidades que como tu han optado por el <strong>Coworking de Quelqum en Santiago de Compostela</strong>.</p>
                     </li>
                     <li class="h2li">
                         <p class="h2parrafo text-base md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Ya no estás solo: </span>Tras casi dos años de aislamiento, la necesidad de contacto social parece que se hace cada vez más evidente. El teletrabajo no ha solucionado nuestra necesidad de relacionarnos y compartir. Aquí, no estarás solo. Podrás compartir cafés, ideas, problemas y alegrías. Todo lo que tú quieras.</p>
@@ -171,7 +171,7 @@
         <section >
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100" >
                 <a id="Ubicacion"></a>
-                <h2 class="tituloH2Co text-2xl md:text-3xl">Ubicación Inmejorable</h2>
+                <h2 class="tituloH2Co text-2xl md:text-3xl">Ubicación</h2>
                 <p class="h2parrafo text-base md:text-xl pb-2">
                     <span class="text-3xl text-pink-700">E</span>l centro es de fácil acceso y está bien comunicado. Se encuentra a 800 metros de la estación intermodal de <strong>Santiago de Compostela</strong>, a 4 minutos de la AP9 y de la AP53.
                 </p>
@@ -185,7 +185,7 @@
                 <div class="container pb-10">
                     <div class="w-full rounded items-center">
                         <img class="mx-auto pt-4" src="{{asset('/img/resto/Plano.png')}}"
-                            alt="image">
+                            alt="Ubicacion coworking en Santiago de Compostela">
                     </div>
                 </div>
             </div>
@@ -197,7 +197,7 @@
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32 w-screen bg-pink-50">
                 <a id="sobre-nosotros"></a>
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Sobre nosotros</h2>
-                <img class="float-left w-36 md:w-72 mr-4" src="{{asset('/img/resto/Collage.png')}}" alt="">
+                <img class="float-left w-36 md:w-72 mr-4" src="{{asset('/img/resto/Collage.png')}}" alt="Instalaciones de coworking en Santiago de Compostela">
                 <p class="h2parrafo text-base md:text-xl">
                 <span class="text-3xl text-pink-700">E</span>n Quelqum, siempre hemos apostado decididamente por el empleo, con altos niveles de inserción de nuestros alumnos.
                 </p>
@@ -205,7 +205,7 @@
                     <span class="text-3xl text-pink-700">A</span>hora queremos dar un paso más facilitando a emprendedores, profesionales independientes y pymes de <strong>Santiago de Compostela</strong>, compartir no solo el espacio, sino también el talento y los conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.
                 </p>
                 <p class="h2parrafo text-base md:text-xl pb-10">
-                <span class="text-3xl text-pink-700">P</span>onemos a vuestra disposición un <strong>coworking</strong> que os permitirá abaratar los costes de estructura propios de una oficina tradicional.
+                <span class="text-3xl text-pink-700">P</span>onemos a vuestra disposición un <strong>coworking en Santiago de Compostela</strong> que os permitirá abaratar los costes de estructura propios de una oficina tradicional.
                 Puedes traer tu ordenador, o utilizar los nuestros (consultar condiciones)
                 </p>
             </div>
