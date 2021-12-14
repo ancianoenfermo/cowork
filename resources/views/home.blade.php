@@ -185,7 +185,7 @@
                 <div class="container pb-10">
                     <div class="w-full rounded items-center">
                         <img class="mx-auto pt-4" src="{{asset('/img/resto/Plano.png')}}"
-                            alt="Ubicacion coworking en Santiago de Compostela">
+                            alt="Ubicaciòn coworking en Santiago de Compostela">
                     </div>
                 </div>
             </div>

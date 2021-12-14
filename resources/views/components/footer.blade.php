@@ -46,9 +46,9 @@
                             </div>
                         </div>
                         <div class="w-full lg:w-1/3">
-                            <h2 class=" font-bold mb-4">
+                            <p class=" font-bold mb-4">
                                 Contacta con nosotros
-                            </h2>
+                            </p>
                             <ul class="text-gray-500 text-sm">
                                 <li class="pt-1 pb-2"><a href="#contactanos">Contactanos</a></li>
 
