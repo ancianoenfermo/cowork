@@ -19,7 +19,7 @@ return [
             'separator'    => ' - ',
             'keywords'     => [],
             'canonical'    => false, // Set to null or 'full' to use Url::full(), set to 'current' to use Url::current(), set false to total remove
-            'robots'       => 'all', // Set to 'all', 'none' or any combination of index/noindex and follow/nofollow
+            'robots'       => 'nofollow, noimageindex', // Set to 'all', 'none' or any combination of index/noindex and follow/nofollow
         ],
         /*
          * Webmaster tags are always added.
