@@ -265,7 +265,7 @@
             <img class="w-72" src="{{asset('/img/logo/PerroAmigo.png')}}" alt="">
             <div class="w-full md:w-3/4  p-6">
                 <h1 class=" text-white font-bold text-4xl text-opacity-100">CoWorking en Santiago de Compostela</h1>
-                <p class="h2parrafo text-base md:text-xl text-white  text-xl mt-4">Comparte espacio, talento y  conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.</p>
+                <p class="h2parrafo text-base md:text-xl text-white   mt-4">Comparte espacio, talento y  conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.</p>
             </div>
         </div>
 --}}
