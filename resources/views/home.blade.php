@@ -14,7 +14,7 @@
                             <p class="h2parrafo text-base md:text-xl text-white  mt-4">Comparte espacio, talento y  conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.</p>
                         </div>
                         <div class="items-center  mx-auto my-auto">
-                            <img class="w-20 md:w-72" src="{{asset('/img/logo/PerroAmigo.png')}}" alt="">
+                            <img class="w-20 md:w-72" src="{{asset('/img/logo/PerroAmigo.png')}}" alt="logo petfriendly">
 
                         </div>
                     </div>
@@ -27,7 +27,7 @@
             <a id="nuestros-espacios"></a>
             <h1 class="tituloH2Co text-2xl md:text-3xl ">Coworking en Santiago de Compostela</h1>
             <p class="h2parrafo text-base md:text-xl pb-2">
-                <span class=" text-xl md:text-3xl text-pink-700">C</span>onoce nuestro <strong>coworking en Santiago de Compostela</strong>, con puestos de trabajo compartidos, fijos o nómadas
+                <span class=" text-xl md:text-3xl text-pink-700">C</span>onoce nuestro coworking en Santiago de Compostela, con puestos de trabajo compartidos, fijos o nómadas
                 </p>
             <img class="float-left w-36 md:w-72 mr-4 " src="{{asset('/img/resto/MesaCompartida.jpg')}}" alt="Puesto de coworking en Santiago de Compostela">
             <img class="float-right w-36 md:w-72 ml-4 " src="{{asset('/img/resto/Despacho.jpg')}}" alt="Despacho de coworking en Santiago de Compostela">
@@ -50,9 +50,9 @@
                 <a id="servicios"></a>
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Servicios</h2>
                 <p class="h2parrafo text-base md:text-xl "><span class="text-3xl text-pink-700">U</span>na nueva forma de trabajar y relacionarse, en la que por fin los profesionales pueden compartir un espacio de trabajo y desarrollar nuevas fórmulas de colaboración.</p>
-                <p class="h2parrafo text-base md:text-xl"><span class="text-3xl text-pink-700">N</span>uestras instalaciones de <strong>coworking en Santiago de Compostela</strong> están pensadas para facilitar el desarrollo de la actividad profesional en óptimas condiciones y con un máximo rendimiento, con buena ubicación, luz natural, mobiliario funcional y dotadas de servicios de calefacción, fibra óptica, limpieza, microondas y máquinas de vending, reduciendo su inversión inicial.
+                <p class="h2parrafo text-base md:text-xl"><span class="text-3xl text-pink-700">N</span>uestras instalaciones de coworking en Santiago de Compostela están pensadas para facilitar el desarrollo de la actividad profesional en óptimas condiciones y con un máximo rendimiento, con buena ubicación, luz natural, mobiliario funcional y dotadas de servicios de calefacción, fibra óptica, limpieza, microondas y máquinas de vending, reduciendo su inversión inicial.
                 <p class="h2parrafo text-base md:text-xl"><span class="text-3xl text-pink-700">E</span>l local reúne las condiciones higiénicas, acústicas, de habitabilidad y de seguridad adecuadas y dispone de los medios necesarios para facilitar la accesibilidad universal, de forma que no exista discriminación para las personas con discapacidad.<p>
-                <p class="h2parrafo text-base md:text-xl pb-10"><span class="text-3xl text-pink-700">E</span>s un espacio de <strong>coworking en Santiago de Compostela</strong> concebido para trabajar en las mejores condiciones, por lo que, desde la pandemia, establecimos un Plan de contingencias, que contempla, entre otros, distancia social, con 2m de distancia entre cada puesto de trabajo, alfombras desinfectantes, dispensadores de gel, desinfección diaria o termómetros para control de temperatura.</p>
+                <p class="h2parrafo text-base md:text-xl pb-10"><span class="text-3xl text-pink-700">E</span>s un espacio de coworking en Santiago de Compostela concebido para trabajar en las mejores condiciones, por lo que, desde la pandemia, establecimos un Plan de contingencias, que contempla, entre otros, distancia social, con 2m de distancia entre cada puesto de trabajo, alfombras desinfectantes, dispensadores de gel, desinfección diaria o termómetros para control de temperatura.</p>
                 <div class="container grid grid-cols-3 gap-2 mx-auto pb-10">
                     <div class="w-full rounded">
                         <img src="{{asset('/img/resto/Instalaciones1.jpg')}}"
@@ -205,7 +205,7 @@
                     <span class="text-3xl text-pink-700">A</span>hora queremos dar un paso más facilitando a emprendedores, profesionales independientes y pymes de <strong>Santiago de Compostela</strong>, compartir no solo el espacio, sino también el talento y los conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.
                 </p>
                 <p class="h2parrafo text-base md:text-xl pb-10">
-                <span class="text-3xl text-pink-700">P</span>onemos a vuestra disposición un <strong>coworking en Santiago de Compostela</strong> que os permitirá abaratar los costes de estructura propios de una oficina tradicional.
+                <span class="text-3xl text-pink-700">P</span>onemos a vuestra disposición un  Santiago de Compostela que os permitirá abaratar los costes de estructura propios de una oficina tradicional.
                 Puedes traer tu ordenador, o utilizar los nuestros (consultar condiciones)
                 </p>
             </div>
