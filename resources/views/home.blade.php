@@ -10,7 +10,7 @@
                 <div class="bg-cover" style="background-image: url({{asset('/img/portada/Portada2.png')}})">
                     <div class ="grid grid-cols-1 md:grid-cols-3 h-72 my-auto">
                         <div class="md:col-span-2 pt-10 mx-14 my-auto">
-                            <p class=" text-white text-xl md:text-4xl text-opacity-100"><strong>CoWorking</strong> de Quelqum</p>
+                            <p class=" text-white text-xl md:text-4xl text-opacity-100"><strong>CoWorking en Santiago</strong> de Quelqum</p>
                             <p class="h2parrafo text-base md:text-xl text-white  mt-4">Comparte espacio, talento y  conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.</p>
                         </div>
                         <div class="items-center  mx-auto my-auto">
