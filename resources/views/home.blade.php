@@ -27,13 +27,13 @@
             <a id="nuestros-espacios"></a>
             <h1 class="tituloH2Co text-2xl md:text-3xl ">Coworking en Santiago de Compostela</h1>
             <p class="h2parrafo text-base md:text-xl pb-2">
-                <span class=" text-xl md:text-3xl text-pink-700">C</span>onoce nuestro coworking en Santiago de Compostela, con puestos de trabajo compartidos, fijos o nómadas
+                <span class=" text-xl md:text-3xl text-pink-700">C</span>onoce nuestro <strong>coworking en Santiago de Compostela</strong>, con puestos de trabajo compartidos, fijos o nómadas
                 </p>
             <img class="float-left w-36 md:w-72 mr-4 " src="{{asset('/img/resto/MesaCompartida.jpg')}}" alt="Puesto de coworking en Santiago de Compostela">
             <img class="float-right w-36 md:w-72 ml-4 " src="{{asset('/img/resto/Despacho.jpg')}}" alt="Despacho de coworking en Santiago de Compostela">
 
             <p class="h2parrafo text-base md:text-xl pb-1">
-            <span class="text-3xl text-pink-700">D</span>espachos privados: Disponemos de oficinas y <strong>despachos privados</strong> para tu proyecto.
+            <span class="text-3xl text-pink-700">D</span>espachos privados: Disponemos de oficinas y despachos privados para tu proyecto.
             </p>
             <p class="h2parrafo text-base md:text-xl pb-1">
             <span class="text-3xl text-pink-700">A</span>lquiler de salas de reuniones de diferentes tamaños, incluida una de 90 metros cuadrados, con el equipamiento audiovisual necesario
@@ -154,7 +154,7 @@
                         <p class="h2parrafo text-base md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Sinergias: </span>Te permitirá colaborar con profesionales de otros sectores y establecer nuevas oportunidades de colaboración</p>
                     </li>
                     <li class="h2li">
-                        <p class="h2parrafo text-base md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Amplia tus contactos: </span>Nuevos compañeros, nuevos círculos, nuevas oportunidades que como tu han optado por el <strong>Coworking de Quelqum en Santiago de Compostela</strong>.</p>
+                        <p class="h2parrafo text-base md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Amplia tus contactos: </span>Nuevos compañeros, nuevos círculos, nuevas oportunidades que como tu han optado por Quelqum para su espacio de Coworking en Santiago de Compostela.</p>
                     </li>
                     <li class="h2li">
                         <p class="h2parrafo text-base md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Ya no estás solo: </span>Tras casi dos años de aislamiento, la necesidad de contacto social parece que se hace cada vez más evidente. El teletrabajo no ha solucionado nuestra necesidad de relacionarnos y compartir. Aquí, no estarás solo. Podrás compartir cafés, ideas, problemas y alegrías. Todo lo que tú quieras.</p>
