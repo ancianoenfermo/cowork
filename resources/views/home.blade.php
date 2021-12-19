@@ -205,7 +205,7 @@
                     <span class="text-3xl text-pink-700">A</span>hora queremos dar un paso más facilitando a emprendedores, profesionales independientes y pymes de <strong>Santiago de Compostela</strong>, compartir no solo el espacio, sino también el talento y los conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.
                 </p>
                 <p class="h2parrafo text-base md:text-xl pb-10">
-                <span class="text-3xl text-pink-700">P</span>onemos a vuestra disposición un  Santiago de Compostela que os permitirá abaratar los costes de estructura propios de una oficina tradicional.
+                <span class="text-3xl text-pink-700">P</span>onemos a vuestra disposición un espacio de coworking en Santiago de Compostela que os permitirá abaratar los costes de estructura propios de una oficina tradicional.
                 Puedes traer tu ordenador, o utilizar los nuestros (consultar condiciones)
                 </p>
             </div>
