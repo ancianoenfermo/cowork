@@ -260,6 +260,27 @@
 @slot('footer')
     <x-footer/>
 @endslot
+@push('js')
+<script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "address": {
+        "@type": "PostalAddress",
+        "addressCountry": "España",
+        "addressLocality": "Santiago de Compostela",
+        "addressRegion": "La Coruña",
+        "streetAddress": "Severino Riveiro Tomé, 9-10 Bajo",
+        "postalCode": "15702"
+      },
+      "description": "Servicios de coworking",
+      "name": "Quelqum Coworking",
+      "telephone": "981 939 061"
+    }
+</script>
+
+@endpush
+
 </x-app-layout>
 {{--
   <div class="max-w-7x1 mx-auto px-4 sm:px-6 lg:px-8 py-36">
