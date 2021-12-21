@@ -7,7 +7,7 @@
     @slot('header')
 
             <header>
-                <div class="bg-cover" style="background-image: url({{asset('/img/portada/Portada2.png')}})">
+                <div class="bg-cover" style="background-image: url({{asset('/img/portada/Portada2.jpg')}})">
                     <div class ="grid grid-cols-1 md:grid-cols-3 h-72 my-auto">
                         <div class="md:col-span-2 pt-10 mx-14 my-auto">
                             <p class=" text-white text-xl md:text-4xl text-opacity-100"><strong>CoWorking en Santiago</strong> de Quelqum</p>
@@ -23,10 +23,11 @@
     @endslot
 
     <article>
-        <div class="mx-auto text-base md:text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100">
-            <a id="nuestros-espacios"></a>
+
+        <div class="mx-auto text-base md:text-xl leading-normal text-justify px-2 md:px-32">
+
             <h1 class="tituloH2Co text-2xl md:text-3xl ">Coworking en Santiago de Compostela</h1>
-            <p class="h2parrafo text-base md:text-xl pb-2">
+            <p class="h2parrafo px-5 text-base md:text-xl pb-2">
                 <span class=" text-xl md:text-3xl text-pink-700">C</span>onoce nuestro <strong>coworking en Santiago de Compostela</strong>, con puestos de trabajo compartidos, fijos o nómadas
                 </p>
             <img class="float-left w-36 md:w-72 mr-4 " src="{{asset('/img/resto/MesaCompartida.jpg')}}" alt="Puesto de coworking en Santiago de Compostela">
@@ -43,11 +44,11 @@
             </p>
 
         </div>
-        <hr class="bg-pink-700 h-2 opacity-25">
 
-        <section>
+
+
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50">
-                <a id="servicios"></a>
+
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Servicios</h2>
                 <p class="h2parrafo text-base md:text-xl "><span class="text-3xl text-pink-700">U</span>na nueva forma de trabajar y relacionarse, en la que por fin los profesionales pueden compartir un espacio de trabajo y desarrollar nuevas fórmulas de colaboración.</p>
                 <p class="h2parrafo text-base md:text-xl"><span class="text-3xl text-pink-700">N</span>uestras instalaciones de coworking en Santiago de Compostela están pensadas para facilitar el desarrollo de la actividad profesional en óptimas condiciones y con un máximo rendimiento, con buena ubicación, luz natural, mobiliario funcional y dotadas de servicios de calefacción, fibra óptica, limpieza, microondas y máquinas de vending, reduciendo su inversión inicial.
@@ -66,12 +67,12 @@
                     </div>
                 </div>
             </div>
-        </section>
-        <hr class="bg-pink-700 h-2 opacity-25">
 
-        <section>
-            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100" >
-                <a id="tarifas"></a>
+
+
+
+            <div class="mx-auto text-xl leading-normal md:text-justify px-2 md:px-32" >
+
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Tarifas de espacios de coworking</h2>
                 <div class="pb-24">
                     <table class="mx-auto ">
@@ -139,12 +140,12 @@
 
                 </div>
             </div>
-        </section>
-        <hr class="bg-pink-700 h-2 opacity-25">
 
-        <section>
+
+
+
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50 pb-10">
-                <a id="ventajas"></a>
+
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Ventajas</h2>
                 <ul class="h2ul list-disc">
                     <li class="h2li">
@@ -165,12 +166,12 @@
                 </ul>
             </div>
 
-        </section>
-        <hr class="bg-pink-700 h-2 opacity-25">
 
-        <section >
-            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100" >
-                <a id="Ubicacion"></a>
+
+
+
+            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32 " >
+
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Ubicación</h2>
                 <p class="h2parrafo text-base md:text-xl pb-2">
                     <span class="text-3xl text-pink-700">E</span>l centro es de fácil acceso y está bien comunicado. Se encuentra a 800 metros de la estación intermodal de <strong>Santiago de Compostela</strong>, a 4 minutos de la AP9 y de la AP53.
@@ -184,20 +185,20 @@
                 </p>
                 <div class="container pb-10">
                     <div class="w-full rounded items-center">
-                        <img class="mx-auto pt-4" src="{{asset('/img/resto/Plano.png')}}"
+                        <img class="mx-auto pt-4" src="{{asset('/img/resto/Plano.jpg')}}"
                             alt="Ubicaciòn coworking en Santiago de Compostela">
                     </div>
                 </div>
             </div>
 
-        </section>
-        <hr class="bg-pink-700 h-2 opacity-25">
 
-        <section>
-            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32 w-screen bg-pink-50">
-                <a id="sobre-nosotros"></a>
+
+
+
+            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-50">
+
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Sobre nosotros</h2>
-                <img class="float-left w-36 md:w-72 mr-4" src="{{asset('/img/resto/Collage.png')}}" alt="Instalaciones de coworking en Santiago de Compostela">
+                <img class="mx-auto" src="{{asset('/img/resto/Collage.jpg')}}" alt="Instalaciones de coworking en Santiago de Compostela">
                 <p class="h2parrafo text-base md:text-xl">
                 <span class="text-3xl text-pink-700">E</span>n Quelqum, siempre hemos apostado decididamente por el empleo, con altos niveles de inserción de nuestros alumnos.
                 </p>
@@ -209,18 +210,17 @@
                 Puedes traer tu ordenador, o utilizar los nuestros (consultar condiciones)
                 </p>
             </div>
-        </section>
-        <hr class="bg-pink-700 h-2 opacity-25">
 
-        <section>
-            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32  bg-pink-100 pb-10" >
-                <a id="contactanos"></a>
-                <h2 class="tituloH2Co text-2xl md:text-3xl">Contacta con nosotros</h2>
+
+
+            <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32 pb-10" >
+
+                <h2 class="tituloH2Co text-xl md:text-3xl">Contacta con nosotros</h2>
                 <div class="pt-3 pb-6 mb-6">
 
                     <div class="max-w-2xl mx-auto sm:px-6 lg:px-8">
                         <x-flash-message/>
-                        <div class="bg-white overflow-hidden shadow-md sm:rounded-lg">
+                        <div class="bg-white  shadow-md sm:rounded-lg w-3/4 mx-auto">
                             <div class="p-6 bg-white border-b border-gray-200 ">
                                 <form method="POST"  action="{{route('home.store')}}#contactanos">
                                     @csrf
@@ -230,7 +230,7 @@
                                     <div class="mt-4">
                                         <x-form-input name="name" label="Nombre y apellidos" />
                                     </div>
-                                    <div class="grid grid-cols-3 gap-2">
+                                    <div class="md:grid md:grid-cols-3 md:gap-2">
                                         <div class="col-span-2">
                                             <x-form-input type="email"  name="correo" label="Correo electrónico" />
                                         </div>
@@ -239,7 +239,7 @@
                                         </div>
                                     </div>
 
-                                    <div class="mt-4">
+                                    <div class="">
                                         <x-form-textarea name="mensaje" label="Mensaje" rows="7" />
                                     </div>
                                     <div class="flex items-end justify-end mt-4 ">
@@ -253,8 +253,9 @@
                     </div>
                 </div>
             </div>
-        </section>
+
     </article>
+
 
 @slot('footer')
     <x-footer/>

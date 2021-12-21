@@ -12,17 +12,17 @@
         @apply text-xl font-bold pt-8 pb-3 text-pink-600;
     }
     .h2parrafo {
-        @apply  text-gray-800 text-xl tracking-wide leading-relaxed text-justify ;
+        @apply   text-xl p-5  text-justify ;
     }
     .h2ul {
-        @apply pl-10 text-gray-800 ;
+        @apply pl-10  ;
     }
     .h2li {
-        @apply tracking-wide text-lg leading-normal text-justify pb-2;
+        @apply  text-lg  pb-2;
 
     }
     .h2ul2 {
-        @apply pl-20 text-gray-800 ;
+        @apply pl-20 ;
     }
     .h2li2 {
         @apply tracking-wide text-lg leading-normal text-justify pb-2;
