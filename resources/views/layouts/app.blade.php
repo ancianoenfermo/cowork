@@ -4,32 +4,35 @@
 
 
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-
-        <meta name="csrf-token" content="{{ csrf_token() }}"/>
         <meta name="lang" content="es"/>
+        <meta name="csrf-token" content="{{ csrf_token() }}"/>
+        <meta charset="utf-8">
         <meta name="google-site-verification" content="B1xmbazr7wY-0-DJToWFqDQSBkxOtaICADk5nFNtGB0" />
-        {!!\Artesaos\SEOTools\Facades\SEOTools::generate() !!}
+        <title>CoWorking en Santiago de Quelqum</title>
+        <meta name="description" content="Coworking en Santiago de Compostela. Puestos individuales, despachos privados y aulas de formación. Pegados al Corte Inglés. Espacio Pet Friendly">
+        <meta name="keywords" content="coworking santiago compostela">
+        <link rel="canonical" href="https://coworking.quelqum.com/"/>
+        <meta name="robots" content="all">
+
+
+
+        {{--.{!!\Artesaos\SEOTools\Facades\SEOTools::generate() !!}--}}
         {{--<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap">--}}
 
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
 
         <!-- Styles -->
         {{--<link rel="stylesheet" href="{{ mix('css/app.css') }}">--}}
        <link rel="stylesheet" href="{{ asset('css/app.css') }}">
 
 
-    <style>
-       li::marker {
-            color:rgb(255, 0, 149);
-            }
-    </style>
+
 
 
 
 
     </head>
-    <body class="font-sans antialiased" itemscope itemtype="http://schema.org/WebPage">
+    <body class="font-sans antialiased">
         {{--<x-jet-banner />--}}
 
 

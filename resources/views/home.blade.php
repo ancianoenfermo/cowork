@@ -121,7 +121,7 @@
                         </tr>
                         <tr class="text-base md:text-xl">
                             <td class="border border-pink-500 px-4 py-2">Oficina virtual:
-                                <ul class="h2ul list-disc list-inside px-4 text-xs">
+                                <ul class="h2ul list-disc  list-inside px-4 text-xs">
                                     <li class="h3li text-base md:text-xl">Uso de la dirección como domicilio comercial, social y fiscal.</li>
                                     <li class="h3li text-base md:text-xl">Uso de la dirección en sus espacios web, sus documentos y tarjetas.</li>
                                     <li class="h3li text-base md:text-xl">Perfil visible en nuestra web.</li>
@@ -265,19 +265,43 @@
     {
       "@context": "https://schema.org",
       "@type": "LocalBusiness",
+      "name": "Coworking Quelqum",
+      "description": "Coworking en Santiago de Compostela",
+      "image": "https://coworking.quelqum.com/img/resto/Instalaciones1.jpg",
+      "@id": "",
+      "url": "https://coworking.quelqum.com/",
+      "telephone": "981 939 061",
       "address": {
         "@type": "PostalAddress",
-        "addressCountry": "España",
-        "addressLocality": "Santiago de Compostela",
-        "addressRegion": "La Coruña",
         "streetAddress": "Severino Riveiro Tomé, 9-10 Bajo",
-        "postalCode": "15702"
+        "addressLocality": "Santiago de Compostela",
+        "postalCode": "15702",
+        "addressCountry": "ES"
       },
-      "description": "Servicios de coworking",
-      "name": "Quelqum Coworking",
-      "telephone": "981 939 061"
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 42.8638554,
+        "longitude": -8.5440727
+      },
+      "openingHoursSpecification": {
+        "@type": "OpeningHoursSpecification",
+        "dayOfWeek": [
+          "Monday",
+          "Tuesday",
+          "Wednesday",
+          "Thursday",
+          "Friday",
+          "Saturday"
+        ],
+        "opens": "08:00",
+        "closes": "00:00"
+      }
     }
-</script>
+    </script>
+
+
+
+
 
 @endpush
 
