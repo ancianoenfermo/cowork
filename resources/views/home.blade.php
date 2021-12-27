@@ -214,7 +214,7 @@
 
 
             <div class="mx-auto text-xl leading-normal text-justify px-2 md:px-32 pb-10" >
-
+                <a id="contactanos"></a>
                 <h2 class="tituloH2Co text-xl md:text-3xl">Contacta con nosotros</h2>
                 <div class="pt-3 pb-6 mb-6">
 
