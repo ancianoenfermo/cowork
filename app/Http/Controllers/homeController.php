@@ -41,7 +41,7 @@ class HomeController extends Controller
             );
             return back()->with("succes","El mensaje se ha enviado");
         } catch (Exception $e) {
-            return back()->with("error","El mensaje NO se ha podido enviar");
+            return back()->with("error","El mensaje NO se ha podido enviar".$e);
 
         }
 
