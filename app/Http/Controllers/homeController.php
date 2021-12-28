@@ -24,11 +24,11 @@ class HomeController extends Controller
     public function store(Request $request)
     {
 
-            $request->validate([
-                'name' => 'required|string|min:5|max:50',
-                'correo' => 'required|email',
-                'mensaje' => 'required|string|min:5|max:1500',
-            ]);
+        $request->validate([
+            'name' => 'required|string|min:5|max:50',
+            'correo' => 'required|email',
+            'mensaje' => 'required|string|min:5|max:1500',
+        ]);
 
         try{
             mail::to('carlos.marti.mallen@gmail.com')->send(
