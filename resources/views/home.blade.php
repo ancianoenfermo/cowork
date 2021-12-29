@@ -11,10 +11,10 @@
                     <div class ="grid grid-cols-1 md:grid-cols-3 h-72 my-auto">
                         <div class="md:col-span-2 pt-10 mx-14 my-auto">
                             <p class=" text-white text-xl md:text-4xl text-opacity-100"><strong>CoWorking en Santiago</strong> de Quelqum</p>
-                            <p class="h2parrafo text-lg md:text-xl text-white  mt-4">Comparte espacio, talento y  conocimientos, impulsando sinergias y colaboraciones y haciendo del trabajo una mejor experiencia.</p>
+
                         </div>
                         <div class="items-center  mx-auto my-auto">
-                            <img class="w-10 md:w-72" src="{{asset('/img/logo/PerroAmigo.png')}}" alt="logo petfriendly">
+                            <img class="w-30 md:w-72" src="{{asset('/img/logo/PerroAmigo.png')}}" alt="logo petfriendly">
 
                         </div>
                     </div>
@@ -149,19 +149,19 @@
                 <h2 class="tituloH2Co text-2xl md:text-3xl">Ventajas</h2>
                 <ul class="h2ul list-disc">
                     <li class="h2li">
-                        <p class="h2parrafo text-lg md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Ahorro: </span>Evita los altos costes de alquiler de un local, luz, agua, internet, etc.</p>
+                        <p class="h2parrafo text-lg md:text-xl"><span class="font-semibold text-pink-700">Ahorro: </span>Evita los altos costes de alquiler de un local, luz, agua, internet, etc.</p>
                     </li>
                     <li class="h2li">
-                        <p class="h2parrafo text-lg md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Sinergias: </span>Te permitirá colaborar con profesionales de otros sectores y establecer nuevas oportunidades de colaboración</p>
+                        <p class="h2parrafo text-lg md:text-xl"><span class="font-semibold text-pink-700">Sinergias: </span>Te permitirá colaborar con profesionales de otros sectores y establecer nuevas oportunidades de colaboración</p>
                     </li>
                     <li class="h2li">
-                        <p class="h2parrafo text-lg md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Amplia tus contactos: </span>Nuevos compañeros, nuevos círculos, nuevas oportunidades que como tu han optado por Quelqum para su espacio de Coworking en Santiago de Compostela.</p>
+                        <p class="h2parrafo text-lg md:text-xl"><span class="font-semibold text-pink-700">Amplia tus contactos: </span>Nuevos compañeros, nuevos círculos, nuevas oportunidades que como tu han optado por Quelqum para su espacio de Coworking en Santiago de Compostela.</p>
                     </li>
                     <li class="h2li">
-                        <p class="h2parrafo text-lg md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Ya no estás solo: </span>Tras casi dos años de aislamiento, la necesidad de contacto social parece que se hace cada vez más evidente. El teletrabajo no ha solucionado nuestra necesidad de relacionarnos y compartir. Aquí, no estarás solo. Podrás compartir cafés, ideas, problemas y alegrías. Todo lo que tú quieras.</p>
+                        <p class="h2parrafo text-lg md:text-xl"><span class="font-semibold text-pink-700">Ya no estás solo: </span>Tras casi dos años de aislamiento, la necesidad de contacto social parece que se hace cada vez más evidente. El teletrabajo no ha solucionado nuestra necesidad de relacionarnos y compartir. Aquí, no estarás solo. Podrás compartir cafés, ideas, problemas y alegrías. Todo lo que tú quieras.</p>
                     </li>
                     <li class="h2li">
-                        <p class="h2parrafo text-lg md:text-xl"><span class="text-base md:text-xl font-semibold text-pink-700">Formación: </span>Podrás acceder a precios especiales a nuestros talleres y cursos, así como proponernos todas aquellas actividades que redunden en el bienestar del grupo.</p>
+                        <p class="h2parrafo text-lg md:text-xl"><span class="font-semibold text-pink-700">Formación: </span>Podrás acceder a precios especiales a nuestros talleres y cursos, así como proponernos todas aquellas actividades que redunden en el bienestar del grupo.</p>
                     </li>
                 </ul>
             </div>
@@ -220,12 +220,12 @@
 
                     <div class="max-w-2xl mx-auto sm:px-6 lg:px-8">
                         <x-flash-message/>
-                        <div class="bg-white  shadow-md sm:rounded-lg w-3/4 mx-auto">
+                        <div class="bg-white  shadow-md sm:rounded-lg md:w-3/4 mx-auto">
                             <div class="p-6 bg-white border-b border-gray-200 ">
                                 <form method="POST"  action="{{route('home.store')}}#contactanos">
                                     @csrf
                                     <div class="bg-pink-400 h-10">
-                                    <p class="text-white text-center ">FORMULARIO DE CONTACTO</p>
+                                    <p class="text-lg md:text-x2xl   text-white text-center ">FORMULARIO DE CONTACTO</p>
                                     </div>
                                     <div class="mt-4">
                                         <x-form-input name="name" label="Nombre y apellidos" />

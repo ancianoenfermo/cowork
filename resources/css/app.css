@@ -12,7 +12,7 @@
         @apply   text-xl p-5  text-justify ;
     }
     .h3li {
-        @apply tracking-wide text-lg  leading-normal text-justify pb-2;
+        @apply  text-lg  pb-2;
 
     }
 
